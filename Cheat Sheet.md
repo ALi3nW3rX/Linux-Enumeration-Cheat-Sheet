@@ -88,3 +88,15 @@ sudo lsof -i                                                             -> List
 
 sudo lsof - :port number                                                 -> Checks for open files on a specific port
 ```
+## Running Services
+```
+ps 									 -> snapshot of running process on the machine
+	-e -> all processes
+	-f -> full-format listing
+	-j -> jobs format
+	-l -> long format
+	-u -> user-orented format
+	
+ps aux 									 -> displays all processes
+ps axjf 								 -> displays all processes in a "tree" format
+```
